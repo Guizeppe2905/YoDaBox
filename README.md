@@ -10,9 +10,19 @@ ___
 1. Proceed first to the User Mode, have a quick view of defaults settings. At Profile folder one can personalize the App. Once you choose the field you work at (Occupation folder), the ads below will be changed. Every time you provide more info at Hobbies, Food, Pets etc. folders, the ads at the scroll view below will get more and more relevant to your personal interests and needs. Account form has some basic info such as email&password to test Sign-In menu. The last folder named Balance calculates the number of ads watched and the total amount earned. 
 2. Proceed to Business Mode, here you can imagine that you need to place an ad for your target audience. Very quick and short forms - Profile & Create your ad - will help you to set personalized advertising (Remember the industry you have chosen for your company). Check the preview of your ad at "Watch your ad"
 3. Go back to Private User Mode. If you indicate the same industry at Occupation folder that you have chosen at Business mode before, and run the ad below after that, the user will get the Company's personalized ad & info. 
+Those are main and basic stuff to test, but if you have time there are more things to test.
 ___
-<p align="left">
+
+### Description
+___
+#### Mission
+YoDaBox mission is to help both users and companies to meet each other interests in the most convinient and efficient way. 
+People get tired of useless and annoying ads, spam etc. But imagine if you get paid for watching ads, moreover, all ads are totally relevant to your job, hobbies, status, pets, travels etc...
+Also companies are much more interested in people who really watch / read / listen to the provided information. Business is still spending money on phone calls, mailing, posting ads, even if the data base is quite cold. Intead of paying for such advertising, one can use YoDaBox and always be sure that your ad reaches your potential customer.
+#### Demo
+This pet-project is just a demo, that's why it proposes you a set of videos which can be transformed into an ad. The demo is set for comfortable and quick testing and to get a first glance of the project. 
+User mode can be personalized in 6 fields - Occupation, Travel, Pets, Food, Hobbies, Other Interests & Needs. If you select any option, the App will propose you a new set of ads relevant to your info. 
+By default all ads inform you that you can use them as a template for advertising your Company. Once settings at Business Mode are changed, the ad gets changed too and provides your information - Company's name, Brand name, Slogan, website.
+<p align="center">
   <img src="https://media.giphy.com/media/ibPBFAAwnvCfzUfavN/giphy.gif" alt="animated"> 
-  <p align="right">
-  <img src="https://media.giphy.com/media/TC59t6BDltvM82ESoY/giphy.gif" alt="animated" />
-</p>
+   
