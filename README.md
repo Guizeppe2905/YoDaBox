@@ -11,6 +11,8 @@ ___
 2. Proceed to Business Mode, here you can imagine that you need to place an ad for your target audience. Very quick and short forms - Profile & Create your ad - will help you to set personalized advertising (Remember the industry you have chosen for your company). Check the preview of your ad at "Watch your ad"
 3. Go back to Private User Mode. If you indicate the same industry at Occupation folder that you have chosen at Business mode before, and run the ad below after that, the user will get the Company's personalized ad & info. 
 ___
-<p align="center">
-  <img src="https://media.giphy.com/media/ibPBFAAwnvCfzUfavN/giphy.gif" alt="animated" />
+<p align="left">
+  <img src="https://media.giphy.com/media/ibPBFAAwnvCfzUfavN/giphy.gif" alt="animated"> 
+  <p align="right">
+  <img src="https://media.giphy.com/media/TC59t6BDltvM82ESoY/giphy.gif" alt="animated" />
 </p>
