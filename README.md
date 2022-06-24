@@ -25,4 +25,11 @@ User mode can be personalized in 6 fields - Occupation, Travel, Pets, Food, Hobb
 By default all ads inform you that you can use them as a template for advertising your Company. Once settings at Business Mode are changed, the ad gets changed too and provides your information - Company's name, Brand name, Slogan, website.
 <p align="center">
   <img src="https://media.giphy.com/media/ibPBFAAwnvCfzUfavN/giphy.gif" alt="animated"> 
-   
+
+___
+### Stack
+___
+Private User Mode is made fully using SwiftUI, and Business Mode is made using UIKit. That was made on perpose to show both possibilities. The code is based on MVVM pattern. UserDefaults were enough for saving all user settings as it doesn't consist of any big data. Interface & design was planned in the way to use many animation elements and graphics. Layouts were chosen from Figma, some images transformed by Canva. Libraries used: UIKit, SwiftUI, SnapKit, Foundation, AVKit, Combine, AVFoundation.
+<p align="center">
+<img src="https://media.giphy.com/media/TC59t6BDltvM82ESoY/giphy.gif" alt="animated" />
+
