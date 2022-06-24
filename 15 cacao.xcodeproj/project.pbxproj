@@ -88,7 +88,6 @@
 		515CDEE62854D8B500904C89 /* RepairVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDEE52854D8B500904C89 /* RepairVideo.swift */; };
 		515CDEE82854DBC600904C89 /* construct.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEE72854DBC600904C89 /* construct.mp4 */; };
 		515CDEEA2854DBF600904C89 /* ConstructVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDEE92854DBF600904C89 /* ConstructVideo.swift */; };
-		515CDEEC2854DE6600904C89 /* garden.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEEB2854DE6600904C89 /* garden.mp4 */; };
 		515CDEEF2854E18300904C89 /* CarsVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDEEE2854E18300904C89 /* CarsVideo.swift */; };
 		515CDEF12854E3C900904C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEF02854E3C900904C89 /* Assets.xcassets */; };
 		515CDEF32854E8EC00904C89 /* GardenVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDEF22854E8EC00904C89 /* GardenVideo.swift */; };
@@ -177,6 +176,7 @@
 		51D6FEE728460F8C00E93B2F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D6FEE628460F8C00E93B2F /* InfoViewController.swift */; };
 		51D6FEE928460FC300E93B2F /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D6FEE828460FC300E93B2F /* WatchViewController.swift */; };
 		51D6FEEB28462FC100E93B2F /* ProfileDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D6FEEA28462FC100E93B2F /* ProfileDetailsModel.swift */; };
+		51E8B7AF2865F1C60024EAED /* garden.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 51E8B7AE2865F1C60024EAED /* garden.mp4 */; };
 		CB9640C4664F2325209683F5 /* Pods_15_cacao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5C27EA4452632AB145D063 /* Pods_15_cacao.framework */; };
 /* End PBXBuildFile section */
 
@@ -263,7 +263,6 @@
 		515CDEE52854D8B500904C89 /* RepairVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairVideo.swift; sourceTree = "<group>"; };
 		515CDEE72854DBC600904C89 /* construct.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = construct.mp4; sourceTree = "<group>"; };
 		515CDEE92854DBF600904C89 /* ConstructVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructVideo.swift; sourceTree = "<group>"; };
-		515CDEEB2854DE6600904C89 /* garden.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = garden.mp4; sourceTree = "<group>"; };
 		515CDEEE2854E18300904C89 /* CarsVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsVideo.swift; sourceTree = "<group>"; };
 		515CDEF02854E3C900904C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515CDEF22854E8EC00904C89 /* GardenVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenVideo.swift; sourceTree = "<group>"; };
@@ -354,6 +353,7 @@
 		51D6FEE628460F8C00E93B2F /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		51D6FEE828460FC300E93B2F /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
 		51D6FEEA28462FC100E93B2F /* ProfileDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsModel.swift; sourceTree = "<group>"; };
+		51E8B7AE2865F1C60024EAED /* garden.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = garden.mp4; sourceTree = "<group>"; };
 		7D5C27EA4452632AB145D063 /* Pods_15_cacao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_15_cacao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9129D4D973980F87585B9EA /* Pods-15 cacao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-15 cacao.debug.xcconfig"; path = "Target Support Files/Pods-15 cacao/Pods-15 cacao.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -599,10 +599,10 @@
 				515CDF3A28560FF000904C89 /* fishing.mp4 */,
 				5110B14F2865E7D40010FAE1 /* hands.mp4 */,
 				515CDEF42854EA3100904C89 /* landscape.mp4 */,
-				515CDEEB2854DE6600904C89 /* garden.mp4 */,
 				5130425528563FA5001782CC /* games.mp4 */,
 				5110B1592865E9FD0010FAE1 /* burger.mp4 */,
 				515CDEC2285379F300904C89 /* makeup.mp4 */,
+				51E8B7AE2865F1C60024EAED /* garden.mp4 */,
 				515CDEC0285378AC00904C89 /* flowers.mp4 */,
 				515CDEB72852230B00904C89 /* repair.mp4 */,
 				515CDF3228560A7100904C89 /* veterinary.mp4 */,
@@ -851,13 +851,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				515CDEEC2854DE6600904C89 /* garden.mp4 in Resources */,
 				514C80E02862537E0042F6C6 /* italian.mov in Resources */,
 				5130425628563FA5001782CC /* games.mp4 in Resources */,
 				514C80E8286255880042F6C6 /* mexican.mov in Resources */,
 				515CDF27285605C200904C89 /* turtle.mp4 in Resources */,
 				5130427128565B43001782CC /* scientificMovie.mp4 in Resources */,
 				5110B1542865E8B00010FAE1 /* movies.mp4 in Resources */,
+				51E8B7AF2865F1C60024EAED /* garden.mp4 in Resources */,
 				515CDEB42852217F00904C89 /* fashion.mp4 in Resources */,
 				515CDF032855437700904C89 /* it.mp4 in Resources */,
 				515CDEFB285517E100904C89 /* science.mp4 in Resources */,
