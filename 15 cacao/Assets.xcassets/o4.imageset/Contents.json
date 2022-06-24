@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "Market-your-hotel-according-to-season-STAAH-1030x1030.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "original"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "209b2de9feffc8cc15693ca5f1a15999--gardening-tools-urban-gardening.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "original"
+  }
+}

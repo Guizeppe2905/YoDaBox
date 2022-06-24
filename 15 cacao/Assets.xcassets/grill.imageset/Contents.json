@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "1552f5fabf582abff4a59c824ee3d2bc--grilling-tips-grilling-recipes.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "original"
+  }
+}
