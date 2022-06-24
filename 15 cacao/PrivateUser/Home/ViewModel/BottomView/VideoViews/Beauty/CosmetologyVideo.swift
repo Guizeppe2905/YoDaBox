@@ -70,7 +70,7 @@ struct CosmetologyVideoView: View {
         ZStack {
             ZStack {
         VideoPlayer (
-            player: AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "hands", ofType: "mp4")!))
+            player: AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "facecare", ofType: "mp4")!))
          )
         }
             ZStack(alignment: .bottomLeading) {

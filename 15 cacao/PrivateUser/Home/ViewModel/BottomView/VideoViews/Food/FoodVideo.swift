@@ -70,7 +70,7 @@ struct FoodVideoView: View {
         ZStack {
             ZStack {
         VideoPlayer (
-            player: AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "cooking", ofType: "mp4")!))
+            player: AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "cooking1", ofType: "mp4")!))
          )
         }
             ZStack(alignment: .bottomLeading) {

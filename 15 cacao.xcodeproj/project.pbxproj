@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5110B14C2865E7320010FAE1 /* cooking1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5110B14B2865E7320010FAE1 /* cooking1.mp4 */; };
+		5110B14E2865E7620010FAE1 /* cooking.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5110B14D2865E7620010FAE1 /* cooking.mp4 */; };
+		5110B1502865E7D40010FAE1 /* hands.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5110B14F2865E7D40010FAE1 /* hands.mp4 */; };
+		5110B1522865E82B0010FAE1 /* facecare.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5110B1512865E82B0010FAE1 /* facecare.mp4 */; };
+		5110B1542865E8B00010FAE1 /* movies.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5110B1532865E8B00010FAE1 /* movies.mp4 */; };
+		5110B1562865E9060010FAE1 /* sport.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5110B1552865E9060010FAE1 /* sport.mp4 */; };
+		5110B1582865E9780010FAE1 /* fishes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5110B1572865E9780010FAE1 /* fishes.mp4 */; };
+		5110B15A2865E9FD0010FAE1 /* burger.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5110B1592865E9FD0010FAE1 /* burger.mp4 */; };
 		51228DDD2842794D009BA747 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51228DDC2842794D009BA747 /* HomeViewController.swift */; };
 		51228DDF28427962009BA747 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51228DDE28427962009BA747 /* MenuViewController.swift */; };
 		51228DE12842797A009BA747 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51228DE02842797A009BA747 /* ContainerViewController.swift */; };
@@ -20,7 +28,6 @@
 		5130425E285643C8001782CC /* cybersport.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5130425D285643C8001782CC /* cybersport.mp4 */; };
 		51304260285643F0001782CC /* Cyberssport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130425F285643F0001782CC /* Cyberssport.swift */; };
 		5130426228564490001782CC /* BurgerVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130426128564490001782CC /* BurgerVideo.swift */; };
-		5130426428564533001782CC /* burger.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5130426328564533001782CC /* burger.mp4 */; };
 		5130426728564E8A001782CC /* MedicineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130426628564E8A001782CC /* MedicineViewModel.swift */; };
 		5130426928565062001782CC /* HealthcareVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130426828565062001782CC /* HealthcareVideo.swift */; };
 		5130426B28565327001782CC /* healthcare.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5130426A28565327001782CC /* healthcare.mp4 */; };
@@ -57,12 +64,9 @@
 		514C80EE286256150042F6C6 /* SeafoodVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514C80ED286256150042F6C6 /* SeafoodVideo.swift */; };
 		514C80F0286256760042F6C6 /* SushiVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514C80EF286256760042F6C6 /* SushiVideo.swift */; };
 		51504A0E2851FB920027CFA5 /* diving.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 51504A0D2851FB920027CFA5 /* diving.mp4 */; };
-		515CDE9A285204B100904C89 /* sport.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDE99285204B100904C89 /* sport.mp4 */; };
 		515CDE9C285209D200904C89 /* beach.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDE9B285209D200904C89 /* beach.mp4 */; };
-		515CDEA428521A2300904C89 /* cooking.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEA328521A2300904C89 /* cooking.mp4 */; };
 		515CDEA828521BF000904C89 /* media.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEA728521BF000904C89 /* media.mp4 */; };
 		515CDEAA28521DF800904C89 /* makeup2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEA928521DF800904C89 /* makeup2.mp4 */; };
-		515CDEB0285220AC00904C89 /* movies.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEAF285220AC00904C89 /* movies.mp4 */; };
 		515CDEB42852217F00904C89 /* fashion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEB32852217F00904C89 /* fashion.mp4 */; };
 		515CDEB82852230B00904C89 /* repair.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEB72852230B00904C89 /* repair.mp4 */; };
 		515CDEBC2853322E00904C89 /* yoda.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEBB2853322E00904C89 /* yoda.mp4 */; };
@@ -78,7 +82,6 @@
 		515CDED62854B2B300904C89 /* SpaVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDED52854B2B300904C89 /* SpaVideo.swift */; };
 		515CDEDA2854B80000904C89 /* CosmetologyVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDED92854B80000904C89 /* CosmetologyVideo.swift */; };
 		515CDEDC2854BB4000904C89 /* HomeDesignVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDEDB2854BB4000904C89 /* HomeDesignVideo.swift */; };
-		515CDEDE2854C3D500904C89 /* hands.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDEDD2854C3D500904C89 /* hands.mp4 */; };
 		515CDEE02854C48200904C89 /* CosmeticsVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDEDF2854C48200904C89 /* CosmeticsVideo.swift */; };
 		515CDEE22854D13B00904C89 /* ConstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDEE12854D13B00904C89 /* ConstructionView.swift */; };
 		515CDEE42854D27100904C89 /* ConstructionVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDEE32854D27100904C89 /* ConstructionVideo.swift */; };
@@ -114,7 +117,6 @@
 		515CDF232856041F00904C89 /* rodent.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDF222856041F00904C89 /* rodent.mp4 */; };
 		515CDF252856045F00904C89 /* parrot.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDF242856045F00904C89 /* parrot.mp4 */; };
 		515CDF27285605C200904C89 /* turtle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDF26285605C200904C89 /* turtle.mp4 */; };
-		515CDF292856062300904C89 /* fishes.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 515CDF282856062300904C89 /* fishes.mp4 */; };
 		515CDF2B2856072600904C89 /* FishesVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDF2A2856072600904C89 /* FishesVideo.swift */; };
 		515CDF2D285607B300904C89 /* RodentVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDF2C285607B300904C89 /* RodentVideo.swift */; };
 		515CDF2F2856083300904C89 /* TurtleVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CDF2E2856083300904C89 /* TurtleVideo.swift */; };
@@ -180,6 +182,14 @@
 
 /* Begin PBXFileReference section */
 		496FCD55FCFA02FE466F9F25 /* Pods-15 cacao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-15 cacao.release.xcconfig"; path = "Target Support Files/Pods-15 cacao/Pods-15 cacao.release.xcconfig"; sourceTree = "<group>"; };
+		5110B14B2865E7320010FAE1 /* cooking1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cooking1.mp4; sourceTree = "<group>"; };
+		5110B14D2865E7620010FAE1 /* cooking.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cooking.mp4; sourceTree = "<group>"; };
+		5110B14F2865E7D40010FAE1 /* hands.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = hands.mp4; path = ../../../../pet/videos/hands.mp4; sourceTree = "<group>"; };
+		5110B1512865E82B0010FAE1 /* facecare.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = facecare.mp4; sourceTree = "<group>"; };
+		5110B1532865E8B00010FAE1 /* movies.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movies.mp4; sourceTree = "<group>"; };
+		5110B1552865E9060010FAE1 /* sport.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sport.mp4; sourceTree = "<group>"; };
+		5110B1572865E9780010FAE1 /* fishes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fishes.mp4; sourceTree = "<group>"; };
+		5110B1592865E9FD0010FAE1 /* burger.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burger.mp4; sourceTree = "<group>"; };
 		51228DDC2842794D009BA747 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		51228DDE28427962009BA747 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		51228DE02842797A009BA747 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
@@ -193,7 +203,6 @@
 		5130425D285643C8001782CC /* cybersport.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cybersport.mp4; sourceTree = "<group>"; };
 		5130425F285643F0001782CC /* Cyberssport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyberssport.swift; sourceTree = "<group>"; };
 		5130426128564490001782CC /* BurgerVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerVideo.swift; sourceTree = "<group>"; };
-		5130426328564533001782CC /* burger.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burger.mp4; sourceTree = "<group>"; };
 		5130426628564E8A001782CC /* MedicineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewModel.swift; sourceTree = "<group>"; };
 		5130426828565062001782CC /* HealthcareVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareVideo.swift; sourceTree = "<group>"; };
 		5130426A28565327001782CC /* healthcare.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthcare.mp4; sourceTree = "<group>"; };
@@ -230,12 +239,9 @@
 		514C80ED286256150042F6C6 /* SeafoodVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeafoodVideo.swift; sourceTree = "<group>"; };
 		514C80EF286256760042F6C6 /* SushiVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiVideo.swift; sourceTree = "<group>"; };
 		51504A0D2851FB920027CFA5 /* diving.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = diving.mp4; sourceTree = "<group>"; };
-		515CDE99285204B100904C89 /* sport.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sport.mp4; sourceTree = "<group>"; };
 		515CDE9B285209D200904C89 /* beach.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = beach.mp4; sourceTree = "<group>"; };
-		515CDEA328521A2300904C89 /* cooking.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cooking.mp4; sourceTree = "<group>"; };
 		515CDEA728521BF000904C89 /* media.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = media.mp4; sourceTree = "<group>"; };
 		515CDEA928521DF800904C89 /* makeup2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = makeup2.mp4; sourceTree = "<group>"; };
-		515CDEAF285220AC00904C89 /* movies.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movies.mp4; sourceTree = "<group>"; };
 		515CDEB32852217F00904C89 /* fashion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fashion.mp4; sourceTree = "<group>"; };
 		515CDEB72852230B00904C89 /* repair.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = repair.mp4; sourceTree = "<group>"; };
 		515CDEBB2853322E00904C89 /* yoda.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoda.mp4; sourceTree = "<group>"; };
@@ -251,7 +257,6 @@
 		515CDED52854B2B300904C89 /* SpaVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaVideo.swift; sourceTree = "<group>"; };
 		515CDED92854B80000904C89 /* CosmetologyVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmetologyVideo.swift; sourceTree = "<group>"; };
 		515CDEDB2854BB4000904C89 /* HomeDesignVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDesignVideo.swift; sourceTree = "<group>"; };
-		515CDEDD2854C3D500904C89 /* hands.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hands.mp4; sourceTree = "<group>"; };
 		515CDEDF2854C48200904C89 /* CosmeticsVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmeticsVideo.swift; sourceTree = "<group>"; };
 		515CDEE12854D13B00904C89 /* ConstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructionView.swift; sourceTree = "<group>"; };
 		515CDEE32854D27100904C89 /* ConstructionVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructionVideo.swift; sourceTree = "<group>"; };
@@ -287,7 +292,6 @@
 		515CDF222856041F00904C89 /* rodent.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rodent.mp4; sourceTree = "<group>"; };
 		515CDF242856045F00904C89 /* parrot.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = parrot.mp4; sourceTree = "<group>"; };
 		515CDF26285605C200904C89 /* turtle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = turtle.mp4; sourceTree = "<group>"; };
-		515CDF282856062300904C89 /* fishes.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fishes.mp4; sourceTree = "<group>"; };
 		515CDF2A2856072600904C89 /* FishesVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishesVideo.swift; sourceTree = "<group>"; };
 		515CDF2C285607B300904C89 /* RodentVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodentVideo.swift; sourceTree = "<group>"; };
 		515CDF2E2856083300904C89 /* TurtleVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleVideo.swift; sourceTree = "<group>"; };
@@ -576,7 +580,6 @@
 			isa = PBXGroup;
 			children = (
 				515CDEBB2853322E00904C89 /* yoda.mp4 */,
-				515CDEDD2854C3D500904C89 /* hands.mp4 */,
 				514C80DF2862537E0042F6C6 /* italian.mov */,
 				514C80E3286255240042F6C6 /* oriental.mov */,
 				514C80E7286255880042F6C6 /* mexican.mov */,
@@ -590,12 +593,15 @@
 				515CDEC628539FA500904C89 /* travel.mp4 */,
 				515CDF202856035600904C89 /* cat.mp4 */,
 				5130425D285643C8001782CC /* cybersport.mp4 */,
-				5130426328564533001782CC /* burger.mp4 */,
+				5110B14D2865E7620010FAE1 /* cooking.mp4 */,
 				515CDEFC28553C5A00904C89 /* homedesign.mp4 */,
+				5110B1512865E82B0010FAE1 /* facecare.mp4 */,
 				515CDF3A28560FF000904C89 /* fishing.mp4 */,
+				5110B14F2865E7D40010FAE1 /* hands.mp4 */,
 				515CDEF42854EA3100904C89 /* landscape.mp4 */,
 				515CDEEB2854DE6600904C89 /* garden.mp4 */,
 				5130425528563FA5001782CC /* games.mp4 */,
+				5110B1592865E9FD0010FAE1 /* burger.mp4 */,
 				515CDEC2285379F300904C89 /* makeup.mp4 */,
 				515CDEC0285378AC00904C89 /* flowers.mp4 */,
 				515CDEB72852230B00904C89 /* repair.mp4 */,
@@ -605,24 +611,24 @@
 				515CDF142855F73200904C89 /* sporttour.mp4 */,
 				515CDF0028553F3E00904C89 /* construction.mp4 */,
 				515CDF042855566400904C89 /* cars.mp4 */,
-				515CDF282856062300904C89 /* fishes.mp4 */,
 				515CDEB32852217F00904C89 /* fashion.mp4 */,
+				5110B1572865E9780010FAE1 /* fishes.mp4 */,
 				515CDF242856045F00904C89 /* parrot.mp4 */,
-				515CDEAF285220AC00904C89 /* movies.mp4 */,
 				515CDF122855F72A00904C89 /* extreme.mp4 */,
 				5130427028565B43001782CC /* scientificMovie.mp4 */,
 				515CDF022855437700904C89 /* it.mp4 */,
+				5110B14B2865E7320010FAE1 /* cooking1.mp4 */,
 				515CDEA928521DF800904C89 /* makeup2.mp4 */,
 				515CDEA728521BF000904C89 /* media.mp4 */,
+				5110B1532865E8B00010FAE1 /* movies.mp4 */,
 				515CDF06285556EA00904C89 /* dog.mp4 */,
 				515CDEFE28553D3400904C89 /* medicine.mp4 */,
 				515CDED32854B26900904C89 /* spa.mp4 */,
 				515CDEFA285517E100904C89 /* science.mp4 */,
 				515CDECF2854AF9000904C89 /* healthyFood.mp4 */,
-				515CDEA328521A2300904C89 /* cooking.mp4 */,
+				5110B1552865E9060010FAE1 /* sport.mp4 */,
 				515CDE9B285209D200904C89 /* beach.mp4 */,
 				51504A0D2851FB920027CFA5 /* diving.mp4 */,
-				515CDE99285204B100904C89 /* sport.mp4 */,
 			);
 			path = Videos;
 			sourceTree = "<group>";
@@ -851,35 +857,37 @@
 				514C80E8286255880042F6C6 /* mexican.mov in Resources */,
 				515CDF27285605C200904C89 /* turtle.mp4 in Resources */,
 				5130427128565B43001782CC /* scientificMovie.mp4 in Resources */,
+				5110B1542865E8B00010FAE1 /* movies.mp4 in Resources */,
 				515CDEB42852217F00904C89 /* fashion.mp4 in Resources */,
 				515CDF032855437700904C89 /* it.mp4 in Resources */,
-				515CDEB0285220AC00904C89 /* movies.mp4 in Resources */,
 				515CDEFB285517E100904C89 /* science.mp4 in Resources */,
 				51C3F41227C3B48400617F4E /* LaunchScreen.storyboard in Resources */,
 				514C80E4286255240042F6C6 /* oriental.mov in Resources */,
 				515CDED42854B26900904C89 /* spa.mp4 in Resources */,
 				515CDF132855F72A00904C89 /* extreme.mp4 in Resources */,
-				515CDEDE2854C3D500904C89 /* hands.mp4 in Resources */,
+				5110B14C2865E7320010FAE1 /* cooking1.mp4 in Resources */,
 				514C80D8286248660042F6C6 /* grill.mov in Resources */,
 				515CDEB82852230B00904C89 /* repair.mp4 in Resources */,
 				515CDEFF28553D3400904C89 /* medicine.mp4 in Resources */,
 				515CDEA828521BF000904C89 /* media.mp4 in Resources */,
+				5110B14E2865E7620010FAE1 /* cooking.mp4 in Resources */,
+				5110B15A2865E9FD0010FAE1 /* burger.mp4 in Resources */,
+				5110B1582865E9780010FAE1 /* fishes.mp4 in Resources */,
 				514C80EC286256020042F6C6 /* sushi.mov in Resources */,
 				515CDEC728539FA600904C89 /* travel.mp4 in Resources */,
 				51504A0E2851FB920027CFA5 /* diving.mp4 in Resources */,
 				5130425E285643C8001782CC /* cybersport.mp4 in Resources */,
 				515CDEC1285378AC00904C89 /* flowers.mp4 in Resources */,
+				5110B1502865E7D40010FAE1 /* hands.mp4 in Resources */,
 				515CDF232856041F00904C89 /* rodent.mp4 in Resources */,
 				515CDF212856035600904C89 /* cat.mp4 in Resources */,
 				515CDF052855566400904C89 /* cars.mp4 in Resources */,
-				5130426428564533001782CC /* burger.mp4 in Resources */,
-				515CDF292856062300904C89 /* fishes.mp4 in Resources */,
+				5110B1562865E9060010FAE1 /* sport.mp4 in Resources */,
 				515CDEE82854DBC600904C89 /* construct.mp4 in Resources */,
 				515CDF07285556EA00904C89 /* dog.mp4 in Resources */,
 				515CDF3328560A7100904C89 /* veterinary.mp4 in Resources */,
 				515CDEFD28553C5A00904C89 /* homedesign.mp4 in Resources */,
 				515CDF3B28560FF000904C89 /* fishing.mp4 in Resources */,
-				515CDEA428521A2300904C89 /* cooking.mp4 in Resources */,
 				5130426B28565327001782CC /* healthcare.mp4 in Resources */,
 				51C3F40D27C3B48400617F4E /* Main.storyboard in Resources */,
 				515CDEC3285379F300904C89 /* makeup.mp4 in Resources */,
@@ -892,11 +900,11 @@
 				515CDEAA28521DF800904C89 /* makeup2.mp4 in Resources */,
 				515CDF092855EB5000904C89 /* mountains.mp4 in Resources */,
 				515CDF0128553F3E00904C89 /* construction.mp4 in Resources */,
-				515CDE9A285204B100904C89 /* sport.mp4 in Resources */,
 				515CDED02854AF9000904C89 /* healthyFood.mp4 in Resources */,
 				513F4705281B11D900DBDFEE /* Colors.xcassets in Resources */,
 				515CDF3928560FEA00904C89 /* petmovie.mp4 in Resources */,
 				515CDF252856045F00904C89 /* parrot.mp4 in Resources */,
+				5110B1522865E82B0010FAE1 /* facecare.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
