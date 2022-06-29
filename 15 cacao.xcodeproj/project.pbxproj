@@ -48,6 +48,9 @@
 		5130428C28568EF7001782CC /* HomeDesignViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130428B28568EF7001782CC /* HomeDesignViewModel.swift */; };
 		5130428E28568F7E001782CC /* FlowersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130428D28568F7E001782CC /* FlowersViewModel.swift */; };
 		5130429028569071001782CC /* FishingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130428F28569071001782CC /* FishingViewModel.swift */; };
+		5137EC39286C7C3C00CD93E6 /* CustomTextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137EC38286C7C3C00CD93E6 /* CustomTextFieldModel.swift */; };
+		5137EC3B286C820200CD93E6 /* CustomLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137EC3A286C820200CD93E6 /* CustomLabelModel.swift */; };
+		5137EC3E286C872100CD93E6 /* CustomButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137EC3D286C872100CD93E6 /* CustomButtonModel.swift */; };
 		513F4702281B114D00DBDFEE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513F4701281B114D00DBDFEE /* Constants.swift */; };
 		513F4705281B11D900DBDFEE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 513F4704281B11D900DBDFEE /* Colors.xcassets */; };
 		514C80D6285A032D0042F6C6 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514C80D5285A032D0042F6C6 /* Intro.swift */; };
@@ -223,6 +226,9 @@
 		5130428B28568EF7001782CC /* HomeDesignViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDesignViewModel.swift; sourceTree = "<group>"; };
 		5130428D28568F7E001782CC /* FlowersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersViewModel.swift; sourceTree = "<group>"; };
 		5130428F28569071001782CC /* FishingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingViewModel.swift; sourceTree = "<group>"; };
+		5137EC38286C7C3C00CD93E6 /* CustomTextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldModel.swift; sourceTree = "<group>"; };
+		5137EC3A286C820200CD93E6 /* CustomLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelModel.swift; sourceTree = "<group>"; };
+		5137EC3D286C872100CD93E6 /* CustomButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonModel.swift; sourceTree = "<group>"; };
 		513F4701281B114D00DBDFEE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		513F4704281B11D900DBDFEE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		514C80D5285A032D0042F6C6 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
@@ -373,7 +379,7 @@
 		51228DDB28427934009BA747 /* Business */ = {
 			isa = PBXGroup;
 			children = (
-				51228DE02842797A009BA747 /* ContainerViewController.swift */,
+				5137EC3C286C826600CD93E6 /* Models */,
 				51228DDE28427962009BA747 /* MenuViewController.swift */,
 				51228DDC2842794D009BA747 /* HomeViewController.swift */,
 				51D6FEAE2845944200E93B2F /* ProfileViewController.swift */,
@@ -479,6 +485,17 @@
 				5130425F285643F0001782CC /* Cyberssport.swift */,
 			);
 			path = "IT&Science";
+			sourceTree = "<group>";
+		};
+		5137EC3C286C826600CD93E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51228DE02842797A009BA747 /* ContainerViewController.swift */,
+				5137EC3A286C820200CD93E6 /* CustomLabelModel.swift */,
+				5137EC38286C7C3C00CD93E6 /* CustomTextFieldModel.swift */,
+				5137EC3D286C872100CD93E6 /* CustomButtonModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		513F46FB281B108200DBDFEE /* Constants */ = {
@@ -979,6 +996,7 @@
 				51228DDF28427962009BA747 /* MenuViewController.swift in Sources */,
 				515CDF0D2855F38000904C89 /* ExcursionVideo.swift in Sources */,
 				515F4B142839C4DA00058DF2 /* FoodVideo.swift in Sources */,
+				5137EC39286C7C3C00CD93E6 /* CustomTextFieldModel.swift in Sources */,
 				5130426228564490001782CC /* BurgerVideo.swift in Sources */,
 				519B050D283D8E4200149B98 /* BudgetView.swift in Sources */,
 				5130425428563DA5001782CC /* ITVideo.swift in Sources */,
@@ -1006,6 +1024,7 @@
 				515CDEEF2854E18300904C89 /* CarsVideo.swift in Sources */,
 				51D6FEDC2845FF1700E93B2F /* ProfileFoldersModel.swift in Sources */,
 				515F98AA28377966005B1C51 /* HalfSheetModel+Extensions.swift in Sources */,
+				5137EC3E286C872100CD93E6 /* CustomButtonModel.swift in Sources */,
 				5130426D28565862001782CC /* ScienceViewModel.swift in Sources */,
 				51D6FEE32846038300E93B2F /* UserSettings.swift in Sources */,
 				5130427528566F17001782CC /* FoodViewModel.swift in Sources */,
@@ -1045,6 +1064,7 @@
 				515CDEF72854EA5100904C89 /* LandscapeVideo.swift in Sources */,
 				515CDED62854B2B300904C89 /* SpaVideo.swift in Sources */,
 				515F4B162839C9DE00058DF2 /* MediaVideo.swift in Sources */,
+				5137EC3B286C820200CD93E6 /* CustomLabelModel.swift in Sources */,
 				515CDECC2854AB2000904C89 /* DefaultView.swift in Sources */,
 				519B050F283D8E5B00149B98 /* CardModel.swift in Sources */,
 				515F98B2283812ED005B1C51 /* CountryModel.swift in Sources */,

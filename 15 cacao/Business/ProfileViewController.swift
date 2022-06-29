@@ -11,74 +11,40 @@ import SwiftUI
 class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     let defaults = UserDefaults.standard
     private let labelCompany: UILabel = {
-        let labelCompany = UILabel()
-        labelCompany.numberOfLines = 0
-        labelCompany.font = .systemFont(ofSize: 14, weight: .semibold)
-        labelCompany.textColor = Constants.Colors.primaryTeal
+        let labelCompany = CustomLabel()
         labelCompany.text = "Your company name"
         return labelCompany
     }()
     private let companyTextField: UITextField = {
-        let companyTextField =  UITextField()
-                    companyTextField.placeholder = "Company"
-                    companyTextField.font = UIFont(name:"Avenir Next", size: 14)
-                    companyTextField.borderStyle = UITextField.BorderStyle.roundedRect
-                    companyTextField.autocorrectionType = UITextAutocorrectionType.no
-                    companyTextField.keyboardType = UIKeyboardType.default
-                    companyTextField.returnKeyType = UIReturnKeyType.done
-                    companyTextField.clearButtonMode = UITextField.ViewMode.whileEditing
-                    companyTextField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
-                    companyTextField.textColor = Constants.Colors.primaryTeal
+        let companyTextField = CustomTextField()
+        companyTextField.placeholder = "Company"
         return companyTextField
     }()
     private let labelIndustry: UILabel = {
-        let labelIndustry = UILabel()
-        labelIndustry.numberOfLines = 0
-        labelIndustry.font = .systemFont(ofSize: 14, weight: .semibold)
-        labelIndustry.textColor = Constants.Colors.primaryTeal
+        let labelIndustry = CustomLabel()
         labelIndustry.text = "Industry -"
         return labelIndustry
     }()
     private let labelWeb: UILabel = {
-        let labelWeb = UILabel()
-        labelWeb.numberOfLines = 0
-        labelWeb.font = .systemFont(ofSize: 14, weight: .semibold)
-        labelWeb.textColor = Constants.Colors.primaryTeal
+        let labelWeb = CustomLabel()
         labelWeb.text = "Website"
         return labelWeb
     }()
    private let webTextField: UITextField = {
-        let webTextField =  UITextField()
-                    webTextField.placeholder = "https://...."
-                    webTextField.font = UIFont(name:"Avenir Next", size: 14)
-                    webTextField.borderStyle = UITextField.BorderStyle.roundedRect
-                    webTextField.autocorrectionType = UITextAutocorrectionType.no
-                    webTextField.keyboardType = UIKeyboardType.default
-                    webTextField.returnKeyType = UIReturnKeyType.done
-                    webTextField.clearButtonMode = UITextField.ViewMode.whileEditing
-                    webTextField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
-                    webTextField.autocapitalizationType = .none
-                    webTextField.textColor = Constants.Colors.primaryTeal
+        let webTextField =  CustomTextField()
+        webTextField.placeholder = "https://...."
+        webTextField.autocapitalizationType = .none
         return webTextField
     }()
     private var industryArray = ["IT", "Medicine", "Science", "Food", "Sport", "Construction", "Travel", "Media", "Beauty", "Cars", "Pets", "Diving", "Movies", "Games", "Fashion", "Gardening", "Repair", "Home Design", "Flowers", "Fishing"]
     let picker = UIPickerView()
     private let labelIndustry1: UILabel = {
-        let labelIndustry1 = UILabel()
-        labelIndustry1.numberOfLines = 0
-        labelIndustry1.font = .systemFont(ofSize: 14, weight: .semibold)
-        labelIndustry1.textColor = Constants.Colors.primaryTeal
-        labelIndustry1.text = ""
+        let labelIndustry1 = CustomLabel()
         return labelIndustry1
     }()
     private let button: UIButton = {
-        let button = UIButton(frame: CGRect(x: 130, y: 600, width: 150, height: 150))
+        let button = CustomButton(frame: CGRect(x: 130, y: 600, width: 150, height: 150))
         button.setTitle("Submit", for: .normal)
-        button.backgroundColor = Constants.Colors.primaryTeal
-        button.layer.cornerRadius = button.frame.width / 2
-        button.titleLabel?.numberOfLines = 0
-        button.titleLabel?.textAlignment = .center
-        button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont(name:"Avenir Next", size: 25)
         return button
     }()
@@ -99,11 +65,8 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
        return imageView
    }()
     private lazy var label: UILabel = {
-        let label = UILabel()
-        label.font = UIFont(name:"Avenir Next", size: 20)
+        let label = CustomLabel()
         label.textAlignment = .center
-        label.numberOfLines = 0
-        label.text = ""
         return label
     }()
     override func viewDidLoad() {
@@ -122,7 +85,6 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         setupConstraints()
         self.picker.dataSource = self
         self.picker.delegate = self
-
         button.addTarget(self,
                          action: #selector(didTapSubmitButton),
                         for: .touchUpInside)
@@ -140,7 +102,6 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         self.labelIndustry1.text = industryArray[row]
     }
-  
     @objc func didTapSubmitButton() {
         defaults.set(companyTextField.text, forKey: "companyName")
         defaults.set(webTextField.text, forKey: "website")

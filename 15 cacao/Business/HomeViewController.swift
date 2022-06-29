@@ -21,58 +21,30 @@ class HomeViewController: UIViewController {
        return imageView
    }()
     private lazy var buttonIntro: UIButton = {
-        let buttonIntro = UIButton(frame: CGRect(x: 140, y: 110, width: 90, height: 90))
+        let buttonIntro = CustomButton(frame: CGRect(x: 140, y: 110, width: 90, height: 90))
         buttonIntro.setTitle("Intro", for: .normal)
-        buttonIntro.backgroundColor = Constants.Colors.primaryTeal
-        buttonIntro.layer.cornerRadius = buttonIntro.frame.width / 2
-        buttonIntro.titleLabel?.numberOfLines = 0
-        buttonIntro.titleLabel?.textAlignment = .center
-        buttonIntro.setTitleColor(.white, for: .normal)
-        buttonIntro.titleLabel?.font = UIFont(name:"Avenir Next", size: 18)
         return buttonIntro
     }()
     private lazy var buttonSet: UIButton = {
-        let buttonSet = UIButton(frame: CGRect(x: 126, y: 100, width: 150, height: 150))
+        let buttonSet = CustomButton(frame: CGRect(x: 126, y: 100, width: 150, height: 150))
         buttonSet.setTitle(". . .", for: .normal)
-        buttonSet.backgroundColor = Constants.Colors.primaryTeal
-        buttonSet.layer.cornerRadius = buttonSet.frame.width / 2
-        buttonSet.titleLabel?.numberOfLines = 0
-        buttonSet.titleLabel?.textAlignment = .center
-        buttonSet.setTitleColor(.white, for: .normal)
         buttonSet.titleLabel?.font = UIFont(name:"Avenir Next", size: 25)
         return buttonSet
     }()
     private lazy var buttonSet1: UIButton = {
-        let buttonSet1 = UIButton(frame: CGRect(x: 126, y: 100, width: 150, height: 150))
+        let buttonSet1 = CustomButton(frame: CGRect(x: 126, y: 100, width: 150, height: 150))
         buttonSet1.setTitle(". . .", for: .normal)
-        buttonSet1.backgroundColor = Constants.Colors.primaryTeal
-        buttonSet1.layer.cornerRadius = buttonSet1.frame.width / 2
-        buttonSet1.titleLabel?.numberOfLines = 0
-        buttonSet1.titleLabel?.textAlignment = .center
-        buttonSet1.setTitleColor(.white, for: .normal)
         buttonSet1.titleLabel?.font = UIFont(name:"Avenir Next", size: 25)
         return buttonSet1
     }()
     private lazy var buttonUser: UIButton = {
-        let buttonUser = UIButton(frame: CGRect(x: 140, y: 110, width: 90, height: 90))
+        let buttonUser = CustomButton(frame: CGRect(x: 140, y: 110, width: 90, height: 90))
         buttonUser.setTitle("User Mode", for: .normal)
-        buttonUser.backgroundColor = Constants.Colors.primaryTeal
-        buttonUser.layer.cornerRadius = buttonUser.frame.width / 2
-        buttonUser.titleLabel?.numberOfLines = 0
-        buttonUser.titleLabel?.textAlignment = .center
-        buttonUser.setTitleColor(.white, for: .normal)
-        buttonUser.titleLabel?.font = UIFont(name:"Avenir Next", size: 18)
         return buttonUser
     }()
     private lazy var buttonStart: UIButton = {
-        let buttonStart = UIButton(frame: CGRect(x: 140, y: 110, width: 90, height: 90))
+        let buttonStart = CustomButton(frame: CGRect(x: 140, y: 110, width: 90, height: 90))
         buttonStart.setTitle("Back to Start", for: .normal)
-        buttonStart.backgroundColor = Constants.Colors.primaryTeal
-        buttonStart.layer.cornerRadius = buttonStart.frame.width / 2
-        buttonStart.titleLabel?.numberOfLines = 0
-        buttonStart.titleLabel?.textAlignment = .center
-        buttonStart.setTitleColor(.white, for: .normal)
-        buttonStart.titleLabel?.font = UIFont(name:"Avenir Next", size: 18)
         return buttonStart
     }()
     private lazy var buttonsStackView: UIStackView = {
@@ -96,11 +68,9 @@ class HomeViewController: UIViewController {
        return stackView
     }()
     private lazy var label: UILabel = {
-        let label = UILabel()
-        label.textColor = Constants.Colors.primaryTeal
+        let label = CustomLabel()
         label.font = UIFont(name:"Avenir Next", size: 20)
         label.textAlignment = .natural
-        label.numberOfLines = 0
         label.text = "YoDa For Business \n 1. Select profile on the left side, fill in short form (5 secs). \n 2. Spend 3 seconds more on Create ad section. \n 3. Check Your Data at Info and your ad is ready. \n 4. Watch it and proceed to Private User mode. Select user's occupation to be the same industry you indicated here and User will watch your ad."
         return label
     }()

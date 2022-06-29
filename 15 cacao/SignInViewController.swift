@@ -60,16 +60,9 @@ class SignInViewController: UIViewController {
         return labelEmail
     }()
     private let emailTextField: UITextField = {
-        let emailTextField =  UITextField()
+        let emailTextField =  CustomTextField()
         emailTextField.placeholder = "Enter email"
-        emailTextField.font = UIFont(name:"Avenir Next", size: 14)
-        emailTextField.borderStyle = UITextField.BorderStyle.roundedRect
-        emailTextField.textColor = Constants.Colors.primaryTeal
-        emailTextField.autocorrectionType = UITextAutocorrectionType.no
-        emailTextField.keyboardType = UIKeyboardType.default
-        emailTextField.returnKeyType = UIReturnKeyType.done
-        emailTextField.clearButtonMode = UITextField.ViewMode.whileEditing
-        emailTextField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
+        emailTextField.autocapitalizationType = .none
         return emailTextField
     }()
     private let labelPassword: UILabel = {
@@ -81,30 +74,18 @@ class SignInViewController: UIViewController {
         return labelPassword
     }()
     private let passwordTextField: UITextField = {
-        let passwordTextField =  UITextField()
+        let passwordTextField =  CustomTextField()
         passwordTextField.placeholder = "Enter password"
-        passwordTextField.font = UIFont(name:"Avenir Next", size: 14)
+        passwordTextField.autocapitalizationType = .none
         passwordTextField.isSecureTextEntry = true
-        passwordTextField.textColor = Constants.Colors.primaryTeal
-        passwordTextField.borderStyle = UITextField.BorderStyle.roundedRect
-        passwordTextField.autocorrectionType = UITextAutocorrectionType.no
-        passwordTextField.keyboardType = UIKeyboardType.default
-        passwordTextField.returnKeyType = UIReturnKeyType.done
-        passwordTextField.clearButtonMode = UITextField.ViewMode.whileEditing
-        passwordTextField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         return passwordTextField
     }()
     private let button: UIButton = {
-        let button = UIButton(frame: CGRect(x: 100, y: 380, width: 150, height: 150))
+        let button = CustomButton(frame: CGRect(x: 100, y: 380, width: 150, height: 150))
         button.setTitle("Enter", for: .normal)
-        button.backgroundColor = Constants.Colors.primaryTeal
-        button.layer.cornerRadius = button.frame.width / 2
         button.layer.borderWidth = 1
         let myColor = UIColor.white
         button.layer.borderColor = myColor.cgColor
-        button.titleLabel?.numberOfLines = 0
-        button.titleLabel?.textAlignment = .center
-        button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont(name:"Avenir Next", size: 25)
         return button
     }()
@@ -197,7 +178,9 @@ class SignInViewController: UIViewController {
             })
         }
         @objc private func logCheckUp() {
-            if emailTextField.text == userSetting.userEmail && passwordTextField.text == userSetting.userPassword {
+            if emailTextField.text == "" || passwordTextField.text == "" {
+                createAlert()
+            } else if emailTextField.text == userSetting.userEmail && passwordTextField.text == userSetting.userPassword {
                let swiftUIView = UserMainContentView()
                 let viewCtrl = UIHostingController(rootView: swiftUIView)
                 navigationController?.pushViewController(viewCtrl, animated: true)

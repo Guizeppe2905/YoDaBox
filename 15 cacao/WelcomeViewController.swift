@@ -11,13 +11,8 @@ import SwiftUI
 
 class WelcomeViewController: UIViewController {
     private let button: UIButton = {
-        let button = UIButton(frame: CGRect(x: 100, y: 185, width: 150, height: 150))
+        let button = CustomButton(frame: CGRect(x: 100, y: 185, width: 150, height: 150))
         button.setTitle("Continue", for: .normal)
-        button.backgroundColor = Constants.Colors.primaryTeal
-        button.layer.cornerRadius = button.frame.width / 2
-        button.titleLabel?.numberOfLines = 0
-        button.titleLabel?.textAlignment = .center
-        button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont(name:"Avenir Next", size: 25)
         return button
     }()

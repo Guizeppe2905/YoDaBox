@@ -9,67 +9,33 @@ import UIKit
 class AdViewController: UIViewController {
     let defaults = UserDefaults.standard
     private let labelBrand: UILabel = {
-        let labelBrand = UILabel()
-        labelBrand.numberOfLines = 0
-        labelBrand.font = .systemFont(ofSize: 14, weight: .semibold)
-        labelBrand.textColor = Constants.Colors.primaryTeal
+        let labelBrand = CustomLabel()
         labelBrand.text = "Brand name"
         return labelBrand
     }()
     private let brandTextField: UITextField = {
-        let brandTextField =  UITextField()
-                    brandTextField.placeholder = "Production for promotion"
-                    brandTextField.font = UIFont(name:"Avenir Next", size: 14)
-                    brandTextField.borderStyle = UITextField.BorderStyle.roundedRect
-                    brandTextField.autocorrectionType = UITextAutocorrectionType.no
-                    brandTextField.keyboardType = UIKeyboardType.default
-                    brandTextField.returnKeyType = UIReturnKeyType.done
-                    brandTextField.clearButtonMode = UITextField.ViewMode.whileEditing
-                    brandTextField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
-                    brandTextField.textColor = Constants.Colors.primaryTeal
+        let brandTextField =  CustomTextField()
+        brandTextField.placeholder = "Production for promotion"
         return brandTextField
     }()
     private let labelSlogan: UILabel = {
-        let labelSlogan = UILabel()
-        labelSlogan.numberOfLines = 0
-        labelSlogan.font = .systemFont(ofSize: 14, weight: .semibold)
-        labelSlogan.textColor = Constants.Colors.primaryTeal
+        let labelSlogan = CustomLabel()
         labelSlogan.text = "Slogan"
         return labelSlogan
     }()
     private let sloganTextField: UITextField = {
-        let sloganTextField =  UITextField()
-                    sloganTextField.placeholder = "Enter your slogan"
-                    sloganTextField.font = UIFont(name:"Avenir Next", size: 14)
-                    sloganTextField.borderStyle = UITextField.BorderStyle.roundedRect
-                    sloganTextField.autocorrectionType = UITextAutocorrectionType.no
-                    sloganTextField.keyboardType = UIKeyboardType.default
-                    sloganTextField.returnKeyType = UIReturnKeyType.done
-                    sloganTextField.clearButtonMode = UITextField.ViewMode.whileEditing
-                    sloganTextField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
-                    sloganTextField.textColor = Constants.Colors.primaryTeal
+        let sloganTextField =  CustomTextField()
+        sloganTextField.placeholder = "Enter your slogan"
         return sloganTextField
     }()
     private let labelBuy: UILabel = {
-        let labelBuy = UILabel()
-        labelBuy.numberOfLines = 0
-        labelBuy.font = .systemFont(ofSize: 14, weight: .semibold)
-        labelBuy.textColor = Constants.Colors.primaryTeal
+        let labelBuy = CustomLabel()
         labelBuy.text = "Where one can buy it?"
         return labelBuy
     }()
     private let buyTextField: UITextField = {
-        let buyTextField =  UITextField()
-                    buyTextField.placeholder = "Invite to visit shop or website"
-                    buyTextField.font = UIFont(name:"Avenir Next", size: 14)
-                    buyTextField.borderStyle = UITextField.BorderStyle.roundedRect
-                    buyTextField.autocorrectionType = UITextAutocorrectionType.no
-                    buyTextField.keyboardType = UIKeyboardType.default
-                    buyTextField.returnKeyType = UIReturnKeyType.done
-                    buyTextField.clearButtonMode = UITextField.ViewMode.whileEditing
-                    buyTextField.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
-                    buyTextField.autocapitalizationType = .none
-                    buyTextField.textColor = Constants.Colors.primaryTeal
+        let buyTextField =  CustomTextField()
+        buyTextField.placeholder = "Invite to visit shop or website"
         return buyTextField
     }()
     private lazy var stackView: UIStackView = {
@@ -89,21 +55,13 @@ class AdViewController: UIViewController {
        return imageView
    }()
     private lazy var label: UILabel = {
-        let label = UILabel()
-        label.font = UIFont(name:"Avenir Next", size: 20)
+        let label = CustomLabel()
         label.textAlignment = .center
-        label.numberOfLines = 0
-        label.text = ""
         return label
     }()
     private let button: UIButton = {
-        let button = UIButton(frame: CGRect(x: 120, y: 550, width: 150, height: 150))
+        let button = CustomButton(frame: CGRect(x: 120, y: 550, width: 150, height: 150))
         button.setTitle("Compile", for: .normal)
-        button.backgroundColor = Constants.Colors.primaryTeal
-        button.layer.cornerRadius = button.frame.width / 2
-        button.titleLabel?.numberOfLines = 0
-        button.titleLabel?.textAlignment = .center
-        button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont(name:"Avenir Next", size: 25)
         return button
     }()
